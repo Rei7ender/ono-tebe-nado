@@ -15,15 +15,15 @@
 
 .header__menu {
     grid-column: 1;
-    place-content: center;
 }
 
 .header__links-list {
     display: flex;
+    place-self: center;
     grid-column: 1;
     gap: 32px;
     padding-left: 25px;
-    padding-top: 5px;
+    padding-top: 45px;
     font-weight: 400;
     font-size: 18px;
 }
