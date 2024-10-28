@@ -15,15 +15,12 @@
 
 .header__menu {
     grid-column: 1;
-    grid-auto-flow: column;
     place-content: center;
 }
 
 .header__links-list {
-    display: grid;
+    display: flex;
     grid-column: 1;
-    grid-auto-flow: column;
-    place-content: center;
     gap: 32px;
     padding-left: 25px;
     padding-top: 5px;
@@ -88,7 +85,7 @@
     width: 1000px;
     height: 355px;
     margin: auto;
-    padding: 165px 0px 237px;
+    padding-top: 165px;
     color: white;
     font-size: 100px;
     line-height: 115px;
@@ -107,6 +104,7 @@
 
 .aligned-text_right {
     display: block;
+    margin-right: 0px;
     padding-left: 584px;
     padding-top: 5px;
     text-align: end;
