@@ -44,10 +44,14 @@
 }
 
 .header_logo {
+    padding-left: 40px;
+    grid-column: 2;
+    justify-self: start;
+}
+
+.header_logo-image {
     height: 105px;
     min-height: 105px;
-    grid-column: 2;
-    padding-right: 95px;
 }
 
 .header__address {
